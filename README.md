@@ -52,7 +52,7 @@ A supported IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor
 
 ## REST API Endpoints
 
-Calculate Tax:
+### Calculate Tax:
 
 Endpoint: POST ```http://localhost:8080/api/tax/calculate```
 
