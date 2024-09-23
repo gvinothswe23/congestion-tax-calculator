@@ -1,4 +1,4 @@
-**Congestion Tax Calculator
+##Congestion Tax Calculator
 
 Welcome to the Congestion Tax Calculator assignment.
 
