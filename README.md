@@ -52,11 +52,11 @@ A supported IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor
 
 ## REST API Endpoints
 
-1. Calculate Tax:
+Calculate Tax:
 
 Endpoint: POST /calculate
 
-Payload:
+### Payload:
 
 {
   "city": "gothenburg",
@@ -68,7 +68,7 @@ Payload:
   ]
 }
 
-Response:
+### Response:
 
 {
     "taxAmount": 0.0,
@@ -85,6 +85,6 @@ Unit tests are provided to verify the correctness of the tax calculation logic, 
 Tests can be found under src/test/java/com/volvo/congestion_tax.
 
 ## How to Run Tests
-Run the tests with Maven:
 
+### Run the tests with Maven:
 mvn test
