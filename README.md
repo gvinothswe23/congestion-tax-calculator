@@ -54,7 +54,7 @@ A supported IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor
 
 Calculate Tax:
 
-Endpoint: POST /calculate
+Endpoint: POST ```http://localhost:8080/api/tax/calculate```
 
 ### Payload:
 ```json
