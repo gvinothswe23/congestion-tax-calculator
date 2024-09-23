@@ -36,7 +36,7 @@ A supported IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor
 
 1. Build the project:
  
-  ``` mvn clean install```
+   ```mvn clean install```
    
 2. Run the application:
 
