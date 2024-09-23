@@ -36,17 +36,17 @@ A supported IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor
 
 1. Build the project:
  
-   mvn clean install
+  ``` mvn clean install```
    
 2. Run the application:
 
-   mvn spring-boot:run
+   ```mvn spring-boot:run```
    
-   The application will be running on http://localhost:8080
+   The application will be running on ```http://localhost:8080```
    
 3. Run the tests:
 
-   mvn test
+   ```mvn test```
    
 ## Usage
 
@@ -57,7 +57,7 @@ Calculate Tax:
 Endpoint: POST /calculate
 
 ### Payload:
-
+```json
 {
   "city": "gothenburg",
   "vehicleType": "bus",
@@ -67,14 +67,14 @@ Endpoint: POST /calculate
     "2013-02-07T06:23:27"
   ]
 }
-
+```
 ### Response:
-
+```json
 {
     "taxAmount": 0.0,
     "message": null
 }
-
+```
 ## Testing
 Unit tests are provided to verify the correctness of the tax calculation logic, including:
 
@@ -82,9 +82,9 @@ Unit tests are provided to verify the correctness of the tax calculation logic, 
 2. Time-based rate application.
 3. Maximum daily tax limit enforcement.
 
-Tests can be found under src/test/java/com/volvo/congestion_tax.
+Tests can be found under ```src/test/java/com/volvo/congestion_tax```.
 
 ## How to Run Tests
 
 ### Run the tests with Maven:
-mvn test
+```mvn test```
