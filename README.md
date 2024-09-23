@@ -1,8 +1,8 @@
-** Congestion Tax Calculator
+**Congestion Tax Calculator
 
 Welcome to the Congestion Tax Calculator assignment.
 
-** Project Overview
+**Project Overview
 
 This project is a congestion tax calculator for vehicles driving in and out of Gothenburg. It calculates the total tax a vehicle incurs based on timestamps, tax rules, and exemptions specific to the year 2013. The application is designed to be adaptable to other cities with different tax rules, externalized through a configuration file.
 
