@@ -8,29 +8,29 @@ This project is a congestion tax calculator for vehicles driving in and out of G
 
 ## Features
 
-Calculates congestion tax for vehicles based on specific time intervals.
-Supports tax exemptions for specific types of vehicles (e.g., emergency vehicles, buses).
-Limits the total daily tax to 60 SEK per vehicle.
-Excludes weekends, public holidays, and the month of July from tax calculations.
-Provides an HTTP REST API to interact with the service.
-Externalizes city-specific rules to a configuration file for easy extension to other cities.
+- Calculates congestion tax for vehicles based on specific time intervals.
+- Supports tax exemptions for specific types of vehicles (e.g., emergency vehicles, buses).
+- Limits the total daily tax to 60 SEK per vehicle.
+- Excludes weekends, public holidays, and the month of July from tax calculations.
+- Provides an HTTP REST API to interact with the service.
+- Externalizes city-specific rules to a configuration file for easy extension to other cities.
 
 ## Technologies Used
 
-Language: Java 17
-Framework: Spring Boot
-Build Tool: Maven
-Testing: JUnit 5
-Configuration: JSON (for city-specific rules)
-API Documentation: Swagger
+- Language: Java 17
+- Framework: Spring Boot
+- Build Tool: Maven
+- Testing: JUnit 5
+- Configuration: JSON (for city-specific rules)
+- API Documentation: Swagger
 
 # Getting Started
 
 ## Prerequisites
 
-JDK 17
-Maven 3.6+ installed on your machine
-A supported IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor
+- JDK 17
+- Maven 3.6+ installed on your machine
+- A supported IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor
 
 ## Installing and Running Locally
 
