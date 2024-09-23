@@ -88,6 +88,10 @@ Endpoint: POST /calculate
     "message": null
 }
 ```
+
+### Swagger Documentation
+If Swagger is enabled, you can access the Swagger UI at ```http://localhost:8080/swagger-ui.html``` to explore the API.
+
 ## Testing
 Unit tests are provided to verify the correctness of the tax calculation logic, including:
 
